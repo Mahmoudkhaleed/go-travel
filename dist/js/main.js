@@ -1,0 +1,1 @@
+const goVar={toggler:document.querySelector(".header .toggler"),menu:document.querySelector(".header .menu")};goVar.toggler.addEventListener("click",()=>{goVar.toggler.classList.toggle("active"),goVar.menu.classList.toggle("open")});
